@@ -34,7 +34,7 @@ func main() {
 	micro.Get("/healthchecker", func(c *fiber.Ctx) error {
 		return c.Status(fiber.StatusOK).JSON(fiber.Map{
 			"status":  "success",
-			"message": "JSON Web Token Authentication with Golang",
+			"message": "JSON Web Token Authentication and Authorization in Golang",
 		})
 	})
 
