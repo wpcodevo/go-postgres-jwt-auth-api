@@ -153,6 +153,26 @@
 					"response": []
 				}
 			]
+		},
+		{
+			"name": "Health Checker",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/healthchecker",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"healthchecker"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
